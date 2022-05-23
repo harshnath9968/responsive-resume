@@ -143,51 +143,46 @@ body {
   padding: 40px;
 }
 
-.about
-{
+.about {
   margin-bottom: 50px;
 }
 
-.about:last-child
-{
+.about:last-child {
   margin-bottom: 0;
 }
 
-.title_2
-{
+.title_2 {
   color: #003147;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
   font-weight: 900;
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-p
-{
-  color:#333 ;
+p {
+  color: rgb(163, 171, 131);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
 }
 
-.about .box
-{
+.about .box {
   display: flex;
   flex-direction: row;
-  margin:20px 0 ;
+  margin: 20px 0;
 }
 
-.about .box .exp
-{
+.about .box .exp {
   min-width: 150px;
 }
 
-.about .box .exp h5
-{
+.about .box .exp h5 {
   text-transform: uppercase;
-  color:rgb(158, 187, 60);
+  color: rgb(158, 187, 60);
+  font-size: large;
 }
 
-.about_skill .box
-{
+.about_skill .box {
   position: relative;
   width: 100%;
   display: grid;
@@ -196,24 +191,21 @@ p
   align-items: center;
 }
 
-.about_skill .box h4
-{
+.about_skill .box h4 {
   text-transform: uppercase;
-  color:rgb(79, 101, 101);
-  font-weight:900;
-  font-style:  ;
+  color: rgb(79, 101, 101);
+  font-weight: 900;
+  /* font-style:  ; */
 }
 
-.about_skill .box .percentage
-{
+.about_skill .box .percentage {
   position: relative;
   width: 100%;
   height: 10px;
   background: rgb(198, 178, 178);
 }
 
-.about_skill .box .percentage div
-{
+.about_skill .box .percentage div {
   position: absolute;
   top: 0;
   left: 0;
@@ -221,22 +213,19 @@ p
   background: #03a9f4;
 }
 
-.about_interest ul
-{
+.about_interest ul {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.about_interest ul li 
-{
+.about_interest ul li {
   list-style: none;
   color: #333;
-  font-weight:500 ;
+  font-weight: 500;
 }
 
-.about_interest ul li .fa 
-{
+.about_interest ul li .fa {
   color: aqua;
   font-size: 18px;
-  width:20px ;
+  width: 20px;
 }
